@@ -1,0 +1,747 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Wed Dec 14 05:28:03 2022
+# Process ID: 13904
+# Current directory: C:/Users/danel/Desktop/IAS0150_FPGA_project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7412 C:\Users\danel\Desktop\IAS0150_FPGA_project\IAS0150_FPGA_project.xpr
+# Log file: C:/Users/danel/Desktop/IAS0150_FPGA_project/vivado.log
+# Journal file: C:/Users/danel/Desktop/IAS0150_FPGA_project\vivado.jou
+# Running On: LAPTOP-6O9MPDIM, OS: Windows, CPU Frequency: 2371 MHz, CPU Physical cores: 6, Host memory: 7969 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.6/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.4 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.4/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.5 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.5/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:sp701:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/sp701/1.0/board.xml as part xc7s100fgga676-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:sp701:part0:1.1 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/sp701/1.1/board.xml as part xc7s100fgga676-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.4 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc707/1.4/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc709/1.8/board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu128:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu128/production/1.0/board.xml as part xcvu37p-fsvh2892-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_mpsoc:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_mpsoc/1.0/board.xml as part xczu19eg-ffvd1760-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_rfsoc/1.0/board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc702:part0:1.4 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc702/1.4/board.xml as part xc7z020clg484-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.4 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc706/1.4/board.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.3 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.3/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.4 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.4/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu104:part0:1.1 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu104/1.1/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu106:part0:2.4 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu106/2.4/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu106:part0:2.5 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu106/2.5/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu106:part0:2.6 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu106/2.6/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.2 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.2/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.3 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.3/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.4/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1275/1.0/board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1285/1.0/board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/production/2.0/board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/production/2.0/board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2022.1/data/ip'.
+open_project: Time (s): cpu = 00:00:19 ; elapsed = 00:00:11 . Memory (MB): peak = 1582.844 ; gain = 0.000
+update_compile_order -fileset sources_1
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/utils_1/imports/synth_1/Main.dcp with file C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.runs/synth_1/Main.dcp
+launch_runs impl_1 -to_step write_bitstream -jobs 3
+[Wed Dec 14 05:38:14 2022] Launched synth_1...
+Run output will be captured here: C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.runs/synth_1/runme.log
+[Wed Dec 14 05:38:14 2022] Launched impl_1...
+Run output will be captured here: C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.runs/impl_1/runme.log
+open_run impl_1
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 1582.844 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 77 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2022.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF Files: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.076 . Memory (MB): peak = 2129.797 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.076 . Memory (MB): peak = 2129.797 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2129.797 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:21 ; elapsed = 00:00:18 . Memory (MB): peak = 2237.969 ; gain = 655.125
+report_methodology -name ultrafast_methodology_1 -checks TIMING-14
+Command: report_methodology -name ultrafast_methodology_1 -checks TIMING-14
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [DRC 23-133] Running Methodology with 2 threads
+report_methodology completed successfully
+0
+opt_design
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a35t'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.889 . Memory (MB): peak = 2346.176 ; gain = 8.988
+
+Starting Cache Timing Information Task
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Ending Cache Timing Information Task | Checksum: 2060bdb98
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.147 . Memory (MB): peak = 2346.176 ; gain = 0.000
+
+Starting Logic Optimization Task
+
+Phase 1 Retarget
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 1 Retarget | Checksum: 2060bdb98
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.051 . Memory (MB): peak = 2577.391 ; gain = 0.000
+INFO: [Opt 31-389] Phase Retarget created 0 cells and removed 0 cells
+
+Phase 2 Constant propagation
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Phase 2 Constant propagation | Checksum: 2060bdb98
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.066 . Memory (MB): peak = 2577.391 ; gain = 0.000
+INFO: [Opt 31-389] Phase Constant propagation created 0 cells and removed 0 cells
+
+Phase 3 Sweep
+Phase 3 Sweep | Checksum: 2060bdb98
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.082 . Memory (MB): peak = 2577.391 ; gain = 0.000
+INFO: [Opt 31-389] Phase Sweep created 0 cells and removed 0 cells
+
+Phase 4 BUFG optimization
+Phase 4 BUFG optimization | Checksum: 2060bdb98
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.140 . Memory (MB): peak = 2577.391 ; gain = 0.000
+INFO: [Opt 31-662] Phase BUFG optimization created 0 cells of which 0 are BUFGs and removed 0 cells.
+
+Phase 5 Shift Register Optimization
+INFO: [Opt 31-1064] SRL Remap converted 0 SRLs to 0 registers and converted 0 registers of register chains to 0 SRLs
+Phase 5 Shift Register Optimization | Checksum: 2060bdb98
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.152 . Memory (MB): peak = 2577.391 ; gain = 0.000
+INFO: [Opt 31-389] Phase Shift Register Optimization created 0 cells and removed 0 cells
+
+Phase 6 Post Processing Netlist
+Phase 6 Post Processing Netlist | Checksum: 2060bdb98
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.164 . Memory (MB): peak = 2577.391 ; gain = 0.000
+INFO: [Opt 31-389] Phase Post Processing Netlist created 0 cells and removed 0 cells
+Opt_design Change Summary
+=========================
+
+
+-------------------------------------------------------------------------------------------------------------------------
+|  Phase                        |  #Cells created  |  #Cells Removed  |  #Constrained objects preventing optimizations  |
+-------------------------------------------------------------------------------------------------------------------------
+|  Retarget                     |               0  |               0  |                                              0  |
+|  Constant propagation         |               0  |               0  |                                              0  |
+|  Sweep                        |               0  |               0  |                                              0  |
+|  BUFG optimization            |               0  |               0  |                                              0  |
+|  Shift Register Optimization  |               0  |               0  |                                              0  |
+|  Post Processing Netlist      |               0  |               0  |                                              0  |
+-------------------------------------------------------------------------------------------------------------------------
+
+
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2577.391 ; gain = 0.000
+Ending Logic Optimization Task | Checksum: 2060bdb98
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.177 . Memory (MB): peak = 2577.391 ; gain = 0.000
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+Ending Power Optimization Task | Checksum: 2060bdb98
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.011 . Memory (MB): peak = 2577.391 ; gain = 0.000
+
+Starting Final Cleanup Task
+Ending Final Cleanup Task | Checksum: 2060bdb98
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.010 . Memory (MB): peak = 2577.391 ; gain = 0.000
+
+Starting Netlist Obfuscation Task
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2577.391 ; gain = 0.000
+Ending Netlist Obfuscation Task | Checksum: 2060bdb98
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.010 . Memory (MB): peak = 2577.391 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+17 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+1
+report_methodology -name ultrafast_methodology_2
+Command: report_methodology -name ultrafast_methodology_2
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [DRC 23-133] Running Methodology with 2 threads
+report_methodology completed successfully
+close_design
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a35tcpg236-1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.009 . Memory (MB): peak = 2632.051 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 77 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2022.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [C:/Users/danel/Desktop/iapb-master/FPGA_project/FPGA_project.srcs/constrs_1/new/Basys3_Master.xdc]
+Finished Parsing XDC File [C:/Users/danel/Desktop/iapb-master/FPGA_project/FPGA_project.srcs/constrs_1/new/Basys3_Master.xdc]
+Parsing XDC File [C:/Users/danel/Desktop/iapb-master/FPGA_project/FPGA_project.srcs/constrs_1/new/delay_constraints.xdc]
+INFO: [Timing 38-35] Done setting XDC timing constraints. [C:/Users/danel/Desktop/iapb-master/FPGA_project/FPGA_project.srcs/constrs_1/new/delay_constraints.xdc:1]
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'btnC' matched to 'port' objects. [C:/Users/danel/Desktop/iapb-master/FPGA_project/FPGA_project.srcs/constrs_1/new/delay_constraints.xdc:1]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'btnL' matched to 'port' objects. [C:/Users/danel/Desktop/iapb-master/FPGA_project/FPGA_project.srcs/constrs_1/new/delay_constraints.xdc:2]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'btnR' matched to 'port' objects. [C:/Users/danel/Desktop/iapb-master/FPGA_project/FPGA_project.srcs/constrs_1/new/delay_constraints.xdc:3]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'btnU' matched to 'port' objects. [C:/Users/danel/Desktop/iapb-master/FPGA_project/FPGA_project.srcs/constrs_1/new/delay_constraints.xdc:4]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'btnD' matched to 'port' objects. [C:/Users/danel/Desktop/iapb-master/FPGA_project/FPGA_project.srcs/constrs_1/new/delay_constraints.xdc:5]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'sw[0]' matched to 'port' objects. [C:/Users/danel/Desktop/iapb-master/FPGA_project/FPGA_project.srcs/constrs_1/new/delay_constraints.xdc:6]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'sw[1]' matched to 'port' objects. [C:/Users/danel/Desktop/iapb-master/FPGA_project/FPGA_project.srcs/constrs_1/new/delay_constraints.xdc:7]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'sw[2]' matched to 'port' objects. [C:/Users/danel/Desktop/iapb-master/FPGA_project/FPGA_project.srcs/constrs_1/new/delay_constraints.xdc:8]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'sw[3]' matched to 'port' objects. [C:/Users/danel/Desktop/iapb-master/FPGA_project/FPGA_project.srcs/constrs_1/new/delay_constraints.xdc:9]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'sw[4]' matched to 'port' objects. [C:/Users/danel/Desktop/iapb-master/FPGA_project/FPGA_project.srcs/constrs_1/new/delay_constraints.xdc:10]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'sw[5]' matched to 'port' objects. [C:/Users/danel/Desktop/iapb-master/FPGA_project/FPGA_project.srcs/constrs_1/new/delay_constraints.xdc:11]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'sw[6]' matched to 'port' objects. [C:/Users/danel/Desktop/iapb-master/FPGA_project/FPGA_project.srcs/constrs_1/new/delay_constraints.xdc:12]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'sw[7]' matched to 'port' objects. [C:/Users/danel/Desktop/iapb-master/FPGA_project/FPGA_project.srcs/constrs_1/new/delay_constraints.xdc:13]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'sw[8]' matched to 'port' objects. [C:/Users/danel/Desktop/iapb-master/FPGA_project/FPGA_project.srcs/constrs_1/new/delay_constraints.xdc:14]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'sw[9]' matched to 'port' objects. [C:/Users/danel/Desktop/iapb-master/FPGA_project/FPGA_project.srcs/constrs_1/new/delay_constraints.xdc:15]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'sw[10]' matched to 'port' objects. [C:/Users/danel/Desktop/iapb-master/FPGA_project/FPGA_project.srcs/constrs_1/new/delay_constraints.xdc:16]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'sw[11]' matched to 'port' objects. [C:/Users/danel/Desktop/iapb-master/FPGA_project/FPGA_project.srcs/constrs_1/new/delay_constraints.xdc:17]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'sw[12]' matched to 'port' objects. [C:/Users/danel/Desktop/iapb-master/FPGA_project/FPGA_project.srcs/constrs_1/new/delay_constraints.xdc:18]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'sw[13]' matched to 'port' objects. [C:/Users/danel/Desktop/iapb-master/FPGA_project/FPGA_project.srcs/constrs_1/new/delay_constraints.xdc:19]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'sw[14]' matched to 'port' objects. [C:/Users/danel/Desktop/iapb-master/FPGA_project/FPGA_project.srcs/constrs_1/new/delay_constraints.xdc:20]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'sw[15]' matched to 'port' objects. [C:/Users/danel/Desktop/iapb-master/FPGA_project/FPGA_project.srcs/constrs_1/new/delay_constraints.xdc:21]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'btnC' matched to 'port' objects. [C:/Users/danel/Desktop/iapb-master/FPGA_project/FPGA_project.srcs/constrs_1/new/delay_constraints.xdc:23]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'btnL' matched to 'port' objects. [C:/Users/danel/Desktop/iapb-master/FPGA_project/FPGA_project.srcs/constrs_1/new/delay_constraints.xdc:24]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'btnR' matched to 'port' objects. [C:/Users/danel/Desktop/iapb-master/FPGA_project/FPGA_project.srcs/constrs_1/new/delay_constraints.xdc:25]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'btnU' matched to 'port' objects. [C:/Users/danel/Desktop/iapb-master/FPGA_project/FPGA_project.srcs/constrs_1/new/delay_constraints.xdc:26]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'btnD' matched to 'port' objects. [C:/Users/danel/Desktop/iapb-master/FPGA_project/FPGA_project.srcs/constrs_1/new/delay_constraints.xdc:27]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'sw[0]' matched to 'port' objects. [C:/Users/danel/Desktop/iapb-master/FPGA_project/FPGA_project.srcs/constrs_1/new/delay_constraints.xdc:28]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'sw[1]' matched to 'port' objects. [C:/Users/danel/Desktop/iapb-master/FPGA_project/FPGA_project.srcs/constrs_1/new/delay_constraints.xdc:29]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'sw[2]' matched to 'port' objects. [C:/Users/danel/Desktop/iapb-master/FPGA_project/FPGA_project.srcs/constrs_1/new/delay_constraints.xdc:30]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'sw[3]' matched to 'port' objects. [C:/Users/danel/Desktop/iapb-master/FPGA_project/FPGA_project.srcs/constrs_1/new/delay_constraints.xdc:31]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'sw[4]' matched to 'port' objects. [C:/Users/danel/Desktop/iapb-master/FPGA_project/FPGA_project.srcs/constrs_1/new/delay_constraints.xdc:32]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'sw[5]' matched to 'port' objects. [C:/Users/danel/Desktop/iapb-master/FPGA_project/FPGA_project.srcs/constrs_1/new/delay_constraints.xdc:33]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'sw[6]' matched to 'port' objects. [C:/Users/danel/Desktop/iapb-master/FPGA_project/FPGA_project.srcs/constrs_1/new/delay_constraints.xdc:34]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'sw[7]' matched to 'port' objects. [C:/Users/danel/Desktop/iapb-master/FPGA_project/FPGA_project.srcs/constrs_1/new/delay_constraints.xdc:35]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'sw[8]' matched to 'port' objects. [C:/Users/danel/Desktop/iapb-master/FPGA_project/FPGA_project.srcs/constrs_1/new/delay_constraints.xdc:36]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'sw[9]' matched to 'port' objects. [C:/Users/danel/Desktop/iapb-master/FPGA_project/FPGA_project.srcs/constrs_1/new/delay_constraints.xdc:37]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'sw[10]' matched to 'port' objects. [C:/Users/danel/Desktop/iapb-master/FPGA_project/FPGA_project.srcs/constrs_1/new/delay_constraints.xdc:38]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'sw[11]' matched to 'port' objects. [C:/Users/danel/Desktop/iapb-master/FPGA_project/FPGA_project.srcs/constrs_1/new/delay_constraints.xdc:39]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'sw[12]' matched to 'port' objects. [C:/Users/danel/Desktop/iapb-master/FPGA_project/FPGA_project.srcs/constrs_1/new/delay_constraints.xdc:40]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'sw[13]' matched to 'port' objects. [C:/Users/danel/Desktop/iapb-master/FPGA_project/FPGA_project.srcs/constrs_1/new/delay_constraints.xdc:41]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'sw[14]' matched to 'port' objects. [C:/Users/danel/Desktop/iapb-master/FPGA_project/FPGA_project.srcs/constrs_1/new/delay_constraints.xdc:42]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'sw[15]' matched to 'port' objects. [C:/Users/danel/Desktop/iapb-master/FPGA_project/FPGA_project.srcs/constrs_1/new/delay_constraints.xdc:43]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'LED[0]' matched to 'port' objects. [C:/Users/danel/Desktop/iapb-master/FPGA_project/FPGA_project.srcs/constrs_1/new/delay_constraints.xdc:45]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'LED[1]' matched to 'port' objects. [C:/Users/danel/Desktop/iapb-master/FPGA_project/FPGA_project.srcs/constrs_1/new/delay_constraints.xdc:46]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'LED[2]' matched to 'port' objects. [C:/Users/danel/Desktop/iapb-master/FPGA_project/FPGA_project.srcs/constrs_1/new/delay_constraints.xdc:47]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'LED[3]' matched to 'port' objects. [C:/Users/danel/Desktop/iapb-master/FPGA_project/FPGA_project.srcs/constrs_1/new/delay_constraints.xdc:48]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'LED[4]' matched to 'port' objects. [C:/Users/danel/Desktop/iapb-master/FPGA_project/FPGA_project.srcs/constrs_1/new/delay_constraints.xdc:49]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'LED[5]' matched to 'port' objects. [C:/Users/danel/Desktop/iapb-master/FPGA_project/FPGA_project.srcs/constrs_1/new/delay_constraints.xdc:50]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'LED[6]' matched to 'port' objects. [C:/Users/danel/Desktop/iapb-master/FPGA_project/FPGA_project.srcs/constrs_1/new/delay_constraints.xdc:51]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'LED[7]' matched to 'port' objects. [C:/Users/danel/Desktop/iapb-master/FPGA_project/FPGA_project.srcs/constrs_1/new/delay_constraints.xdc:52]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'LED[8]' matched to 'port' objects. [C:/Users/danel/Desktop/iapb-master/FPGA_project/FPGA_project.srcs/constrs_1/new/delay_constraints.xdc:53]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'LED[9]' matched to 'port' objects. [C:/Users/danel/Desktop/iapb-master/FPGA_project/FPGA_project.srcs/constrs_1/new/delay_constraints.xdc:54]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'LED[10]' matched to 'port' objects. [C:/Users/danel/Desktop/iapb-master/FPGA_project/FPGA_project.srcs/constrs_1/new/delay_constraints.xdc:55]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'LED[11]' matched to 'port' objects. [C:/Users/danel/Desktop/iapb-master/FPGA_project/FPGA_project.srcs/constrs_1/new/delay_constraints.xdc:56]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'LED[12]' matched to 'port' objects. [C:/Users/danel/Desktop/iapb-master/FPGA_project/FPGA_project.srcs/constrs_1/new/delay_constraints.xdc:57]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'LED[13]' matched to 'port' objects. [C:/Users/danel/Desktop/iapb-master/FPGA_project/FPGA_project.srcs/constrs_1/new/delay_constraints.xdc:58]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'LED[14]' matched to 'port' objects. [C:/Users/danel/Desktop/iapb-master/FPGA_project/FPGA_project.srcs/constrs_1/new/delay_constraints.xdc:59]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'LED[15]' matched to 'port' objects. [C:/Users/danel/Desktop/iapb-master/FPGA_project/FPGA_project.srcs/constrs_1/new/delay_constraints.xdc:60]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'an[0]' matched to 'port' objects. [C:/Users/danel/Desktop/iapb-master/FPGA_project/FPGA_project.srcs/constrs_1/new/delay_constraints.xdc:61]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'an[1]' matched to 'port' objects. [C:/Users/danel/Desktop/iapb-master/FPGA_project/FPGA_project.srcs/constrs_1/new/delay_constraints.xdc:62]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'an[2]' matched to 'port' objects. [C:/Users/danel/Desktop/iapb-master/FPGA_project/FPGA_project.srcs/constrs_1/new/delay_constraints.xdc:63]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'an[3]' matched to 'port' objects. [C:/Users/danel/Desktop/iapb-master/FPGA_project/FPGA_project.srcs/constrs_1/new/delay_constraints.xdc:64]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'seg[0]' matched to 'port' objects. [C:/Users/danel/Desktop/iapb-master/FPGA_project/FPGA_project.srcs/constrs_1/new/delay_constraints.xdc:65]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'seg[1]' matched to 'port' objects. [C:/Users/danel/Desktop/iapb-master/FPGA_project/FPGA_project.srcs/constrs_1/new/delay_constraints.xdc:66]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'seg[2]' matched to 'port' objects. [C:/Users/danel/Desktop/iapb-master/FPGA_project/FPGA_project.srcs/constrs_1/new/delay_constraints.xdc:67]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'seg[3]' matched to 'port' objects. [C:/Users/danel/Desktop/iapb-master/FPGA_project/FPGA_project.srcs/constrs_1/new/delay_constraints.xdc:68]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'seg[4]' matched to 'port' objects. [C:/Users/danel/Desktop/iapb-master/FPGA_project/FPGA_project.srcs/constrs_1/new/delay_constraints.xdc:69]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'seg[5]' matched to 'port' objects. [C:/Users/danel/Desktop/iapb-master/FPGA_project/FPGA_project.srcs/constrs_1/new/delay_constraints.xdc:70]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'seg[6]' matched to 'port' objects. [C:/Users/danel/Desktop/iapb-master/FPGA_project/FPGA_project.srcs/constrs_1/new/delay_constraints.xdc:71]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+WARNING: [Vivado 12-661] port or pin 'seg[7]' not found. [C:/Users/danel/Desktop/iapb-master/FPGA_project/FPGA_project.srcs/constrs_1/new/delay_constraints.xdc:72]
+CRITICAL WARNING: [Vivado 12-4739] set_output_delay:No valid object(s) found for '-objects seg[7]'. [C:/Users/danel/Desktop/iapb-master/FPGA_project/FPGA_project.srcs/constrs_1/new/delay_constraints.xdc:72]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'LED[0]' matched to 'port' objects. [C:/Users/danel/Desktop/iapb-master/FPGA_project/FPGA_project.srcs/constrs_1/new/delay_constraints.xdc:74]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'LED[1]' matched to 'port' objects. [C:/Users/danel/Desktop/iapb-master/FPGA_project/FPGA_project.srcs/constrs_1/new/delay_constraints.xdc:75]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'LED[2]' matched to 'port' objects. [C:/Users/danel/Desktop/iapb-master/FPGA_project/FPGA_project.srcs/constrs_1/new/delay_constraints.xdc:76]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'LED[3]' matched to 'port' objects. [C:/Users/danel/Desktop/iapb-master/FPGA_project/FPGA_project.srcs/constrs_1/new/delay_constraints.xdc:77]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'LED[4]' matched to 'port' objects. [C:/Users/danel/Desktop/iapb-master/FPGA_project/FPGA_project.srcs/constrs_1/new/delay_constraints.xdc:78]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'LED[5]' matched to 'port' objects. [C:/Users/danel/Desktop/iapb-master/FPGA_project/FPGA_project.srcs/constrs_1/new/delay_constraints.xdc:79]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'LED[6]' matched to 'port' objects. [C:/Users/danel/Desktop/iapb-master/FPGA_project/FPGA_project.srcs/constrs_1/new/delay_constraints.xdc:80]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'LED[7]' matched to 'port' objects. [C:/Users/danel/Desktop/iapb-master/FPGA_project/FPGA_project.srcs/constrs_1/new/delay_constraints.xdc:81]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'LED[8]' matched to 'port' objects. [C:/Users/danel/Desktop/iapb-master/FPGA_project/FPGA_project.srcs/constrs_1/new/delay_constraints.xdc:82]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'LED[9]' matched to 'port' objects. [C:/Users/danel/Desktop/iapb-master/FPGA_project/FPGA_project.srcs/constrs_1/new/delay_constraints.xdc:83]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'LED[10]' matched to 'port' objects. [C:/Users/danel/Desktop/iapb-master/FPGA_project/FPGA_project.srcs/constrs_1/new/delay_constraints.xdc:84]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'LED[11]' matched to 'port' objects. [C:/Users/danel/Desktop/iapb-master/FPGA_project/FPGA_project.srcs/constrs_1/new/delay_constraints.xdc:85]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'LED[12]' matched to 'port' objects. [C:/Users/danel/Desktop/iapb-master/FPGA_project/FPGA_project.srcs/constrs_1/new/delay_constraints.xdc:86]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'LED[13]' matched to 'port' objects. [C:/Users/danel/Desktop/iapb-master/FPGA_project/FPGA_project.srcs/constrs_1/new/delay_constraints.xdc:87]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'LED[14]' matched to 'port' objects. [C:/Users/danel/Desktop/iapb-master/FPGA_project/FPGA_project.srcs/constrs_1/new/delay_constraints.xdc:88]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'LED[15]' matched to 'port' objects. [C:/Users/danel/Desktop/iapb-master/FPGA_project/FPGA_project.srcs/constrs_1/new/delay_constraints.xdc:89]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'an[0]' matched to 'port' objects. [C:/Users/danel/Desktop/iapb-master/FPGA_project/FPGA_project.srcs/constrs_1/new/delay_constraints.xdc:90]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'an[1]' matched to 'port' objects. [C:/Users/danel/Desktop/iapb-master/FPGA_project/FPGA_project.srcs/constrs_1/new/delay_constraints.xdc:91]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'an[2]' matched to 'port' objects. [C:/Users/danel/Desktop/iapb-master/FPGA_project/FPGA_project.srcs/constrs_1/new/delay_constraints.xdc:92]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'an[3]' matched to 'port' objects. [C:/Users/danel/Desktop/iapb-master/FPGA_project/FPGA_project.srcs/constrs_1/new/delay_constraints.xdc:93]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'seg[0]' matched to 'port' objects. [C:/Users/danel/Desktop/iapb-master/FPGA_project/FPGA_project.srcs/constrs_1/new/delay_constraints.xdc:94]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'seg[1]' matched to 'port' objects. [C:/Users/danel/Desktop/iapb-master/FPGA_project/FPGA_project.srcs/constrs_1/new/delay_constraints.xdc:95]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'seg[2]' matched to 'port' objects. [C:/Users/danel/Desktop/iapb-master/FPGA_project/FPGA_project.srcs/constrs_1/new/delay_constraints.xdc:96]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'seg[3]' matched to 'port' objects. [C:/Users/danel/Desktop/iapb-master/FPGA_project/FPGA_project.srcs/constrs_1/new/delay_constraints.xdc:97]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'seg[4]' matched to 'port' objects. [C:/Users/danel/Desktop/iapb-master/FPGA_project/FPGA_project.srcs/constrs_1/new/delay_constraints.xdc:98]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'seg[5]' matched to 'port' objects. [C:/Users/danel/Desktop/iapb-master/FPGA_project/FPGA_project.srcs/constrs_1/new/delay_constraints.xdc:99]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'seg[6]' matched to 'port' objects. [C:/Users/danel/Desktop/iapb-master/FPGA_project/FPGA_project.srcs/constrs_1/new/delay_constraints.xdc:100]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+WARNING: [Vivado 12-661] port or pin 'seg[7]' not found. [C:/Users/danel/Desktop/iapb-master/FPGA_project/FPGA_project.srcs/constrs_1/new/delay_constraints.xdc:101]
+CRITICAL WARNING: [Vivado 12-4739] set_output_delay:No valid object(s) found for '-objects seg[7]'. [C:/Users/danel/Desktop/iapb-master/FPGA_project/FPGA_project.srcs/constrs_1/new/delay_constraints.xdc:101]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+Finished Parsing XDC File [C:/Users/danel/Desktop/iapb-master/FPGA_project/FPGA_project.srcs/constrs_1/new/delay_constraints.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2632.051 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+opt_design
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a35t'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.677 . Memory (MB): peak = 2632.051 ; gain = 0.000
+
+Starting Cache Timing Information Task
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Ending Cache Timing Information Task | Checksum: 1560b0dad
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.032 . Memory (MB): peak = 2635.992 ; gain = 3.941
+
+Starting Logic Optimization Task
+
+Phase 1 Retarget
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 1 Retarget | Checksum: 1560b0dad
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.038 . Memory (MB): peak = 2649.207 ; gain = 0.000
+INFO: [Opt 31-389] Phase Retarget created 0 cells and removed 0 cells
+
+Phase 2 Constant propagation
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Phase 2 Constant propagation | Checksum: 1560b0dad
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.043 . Memory (MB): peak = 2649.207 ; gain = 0.000
+INFO: [Opt 31-389] Phase Constant propagation created 0 cells and removed 0 cells
+
+Phase 3 Sweep
+Phase 3 Sweep | Checksum: 1e7462148
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.071 . Memory (MB): peak = 2649.207 ; gain = 0.000
+INFO: [Opt 31-389] Phase Sweep created 0 cells and removed 0 cells
+
+Phase 4 BUFG optimization
+Phase 4 BUFG optimization | Checksum: 1e7462148
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.115 . Memory (MB): peak = 2649.207 ; gain = 0.000
+INFO: [Opt 31-662] Phase BUFG optimization created 0 cells of which 0 are BUFGs and removed 0 cells.
+
+Phase 5 Shift Register Optimization
+INFO: [Opt 31-1064] SRL Remap converted 0 SRLs to 0 registers and converted 0 registers of register chains to 0 SRLs
+Phase 5 Shift Register Optimization | Checksum: 1e7462148
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.117 . Memory (MB): peak = 2649.207 ; gain = 0.000
+INFO: [Opt 31-389] Phase Shift Register Optimization created 0 cells and removed 0 cells
+
+Phase 6 Post Processing Netlist
+Phase 6 Post Processing Netlist | Checksum: 1e7462148
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.119 . Memory (MB): peak = 2649.207 ; gain = 0.000
+INFO: [Opt 31-389] Phase Post Processing Netlist created 0 cells and removed 0 cells
+Opt_design Change Summary
+=========================
+
+
+-------------------------------------------------------------------------------------------------------------------------
+|  Phase                        |  #Cells created  |  #Cells Removed  |  #Constrained objects preventing optimizations  |
+-------------------------------------------------------------------------------------------------------------------------
+|  Retarget                     |               0  |               0  |                                              0  |
+|  Constant propagation         |               0  |               0  |                                              0  |
+|  Sweep                        |               0  |               0  |                                              0  |
+|  BUFG optimization            |               0  |               0  |                                              0  |
+|  Shift Register Optimization  |               0  |               0  |                                              0  |
+|  Post Processing Netlist      |               0  |               0  |                                              0  |
+-------------------------------------------------------------------------------------------------------------------------
+
+
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2649.207 ; gain = 0.000
+Ending Logic Optimization Task | Checksum: 130c6a60e
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.163 . Memory (MB): peak = 2649.207 ; gain = 0.000
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+Ending Power Optimization Task | Checksum: 130c6a60e
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 2649.207 ; gain = 0.000
+
+Starting Final Cleanup Task
+Ending Final Cleanup Task | Checksum: 130c6a60e
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2649.207 ; gain = 0.000
+
+Starting Netlist Obfuscation Task
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2649.207 ; gain = 0.000
+Ending Netlist Obfuscation Task | Checksum: 130c6a60e
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2649.207 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+17 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+1
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_1
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+report_methodology -name ultrafast_methodology_1
+Command: report_methodology -name ultrafast_methodology_1
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [DRC 23-133] Running Methodology with 2 threads
+report_methodology completed successfully
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/utils_1/imports/synth_1/Main.dcp with file C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.runs/synth_1/Main.dcp
+launch_runs impl_1 -jobs 3
+WARNING: [Project 1-478] Design 'synth_1' is stale and will not be used when launching 'impl_1'
+[Wed Dec 14 05:47:21 2022] Launched synth_1...
+Run output will be captured here: C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.runs/synth_1/runme.log
+[Wed Dec 14 05:47:21 2022] Launched impl_1...
+Run output will be captured here: C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.runs/impl_1/runme.log
+close_design
+open_run impl_1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 2684.559 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 77 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2022.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF Files: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.258 . Memory (MB): peak = 2684.559 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.258 . Memory (MB): peak = 2684.559 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2684.559 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+CRITICAL WARNING: [Timing 38-282] The design failed to meet the timing requirements. Please see the timing summary report for details on the timing violations.
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/utils_1/imports/synth_1/Main.dcp with file C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.runs/synth_1/Main.dcp
+launch_runs impl_1 -jobs 3
+[Wed Dec 14 05:50:49 2022] Launched synth_1...
+Run output will be captured here: C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.runs/synth_1/runme.log
+[Wed Dec 14 05:50:49 2022] Launched impl_1...
+Run output will be captured here: C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.runs/impl_1/runme.log
+refresh_design
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 2760.559 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 77 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2022.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF Files: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.144 . Memory (MB): peak = 2760.559 ; gain = 0.000
+Restored from archive | CPU: 1.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.144 . Memory (MB): peak = 2760.559 ; gain = 0.000
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/utils_1/imports/synth_1/Main.dcp with file C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.runs/synth_1/Main.dcp
+launch_runs impl_1 -jobs 3
+[Wed Dec 14 05:54:24 2022] Launched synth_1...
+Run output will be captured here: C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.runs/synth_1/runme.log
+[Wed Dec 14 05:54:24 2022] Launched impl_1...
+Run output will be captured here: C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.runs/impl_1/runme.log
+refresh_design
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.009 . Memory (MB): peak = 2765.715 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 77 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2022.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF Files: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.282 . Memory (MB): peak = 2765.715 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.282 . Memory (MB): peak = 2765.715 ; gain = 0.000
+refresh_design: Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 2765.715 ; gain = 5.156
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/utils_1/imports/synth_1/Main.dcp with file C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.runs/synth_1/Main.dcp
+launch_runs impl_1 -jobs 3
+[Wed Dec 14 05:59:15 2022] Launched synth_1...
+Run output will be captured here: C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.runs/synth_1/runme.log
+[Wed Dec 14 05:59:15 2022] Launched impl_1...
+Run output will be captured here: C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.runs/impl_1/runme.log
+refresh_design
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.009 . Memory (MB): peak = 2770.582 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 77 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2022.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF Files: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.340 . Memory (MB): peak = 2770.582 ; gain = 0.000
+Restored from archive | CPU: 1.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.340 . Memory (MB): peak = 2770.582 ; gain = 0.000
+update_compile_order -fileset sources_1
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/utils_1/imports/synth_1/Main.dcp with file C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.runs/synth_1/Main.dcp
+update_compile_order -fileset sources_1
+close_design
+launch_runs impl_1 -jobs 3
+[Wed Dec 14 06:12:04 2022] Launched synth_1...
+Run output will be captured here: C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.runs/synth_1/runme.log
+[Wed Dec 14 06:12:04 2022] Launched impl_1...
+Run output will be captured here: C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.runs/impl_1/runme.log
+open_run impl_1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.009 . Memory (MB): peak = 2770.582 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 77 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2022.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF Files: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.280 . Memory (MB): peak = 2770.582 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.281 . Memory (MB): peak = 2770.582 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2770.582 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/utils_1/imports/synth_1/Main.dcp with file C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.runs/synth_1/Main.dcp
+launch_runs impl_1 -jobs 3
+[Wed Dec 14 06:17:21 2022] Launched synth_1...
+Run output will be captured here: C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.runs/synth_1/runme.log
+[Wed Dec 14 06:17:21 2022] Launched impl_1...
+Run output will be captured here: C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.runs/impl_1/runme.log
+reset_run impl_1
+launch_runs impl_1 -jobs 3
+[Wed Dec 14 06:19:16 2022] Launched impl_1...
+Run output will be captured here: C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.runs/impl_1/runme.log
+refresh_design
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 2777.340 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 77 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2022.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF Files: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.264 . Memory (MB): peak = 2777.340 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.265 . Memory (MB): peak = 2777.340 ; gain = 0.000
+refresh_design: Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 2777.340 ; gain = 6.758
+launch_runs impl_1 -to_step write_bitstream -jobs 3
+[Wed Dec 14 06:20:48 2022] Launched impl_1...
+Run output will be captured here: C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2022.1
+  **** Build date : Apr 18 2022 at 16:02:36
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2022.1.0
+  ****** Build date   : Apr 12 2022-22:12:08
+    **** Build number : 2022.1.1649790728
+      ** Copyright 2017-2022 Xilinx, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:02 ; elapsed = 00:00:08 . Memory (MB): peak = 2777.340 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183A37974A
+open_hw_target: Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 4832.965 ; gain = 2055.625
+set_property PROGRAM.FILE {C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.runs/impl_1/Main.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.runs/impl_1/Main.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183A37974A
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Dec 14 06:56:33 2022...

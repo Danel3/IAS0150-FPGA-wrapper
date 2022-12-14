@@ -1,0 +1,534 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Wed Dec 14 07:03:34 2022
+# Process ID: 7428
+# Current directory: C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.runs/synth_1
+# Command line: vivado.exe -log Main.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Main.tcl
+# Log file: C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.runs/synth_1/Main.vds
+# Journal file: C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.runs/synth_1\vivado.jou
+# Running On: LAPTOP-6O9MPDIM, OS: Windows, CPU Frequency: 2371 MHz, CPU Physical cores: 6, Host memory: 7969 MB
+#-----------------------------------------------------------
+source Main.tcl -notrace
+Command: read_checkpoint -auto_incremental -incremental C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/utils_1/imports/synth_1/Main.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/utils_1/imports/synth_1/Main.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top Main -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 3836
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 1279.898 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Main' [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/sources_1/Main.vhd:35]
+INFO: [Synth 8-3491] module 'Display' declared at 'C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/sources_1/Display.vhd:26' bound to instance 'sev_seg_disp' of component 'Display' [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/sources_1/Main.vhd:93]
+INFO: [Synth 8-638] synthesizing module 'Display' [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/sources_1/Display.vhd:34]
+INFO: [Synth 8-226] default block is never used [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/sources_1/Display.vhd:41]
+INFO: [Synth 8-226] default block is never used [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/sources_1/Display.vhd:90]
+INFO: [Synth 8-256] done synthesizing module 'Display' (0#1) [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/sources_1/Display.vhd:34]
+INFO: [Synth 8-3491] module 'Debounce' declared at 'C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/sources_1/Debounce.vhd:24' bound to instance 'btn_first' of component 'Debounce' [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/sources_1/Main.vhd:101]
+INFO: [Synth 8-638] synthesizing module 'Debounce' [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/sources_1/Debounce.vhd:37]
+	Parameter dev_clock bound to: 100000000 - type: integer 
+	Parameter delay_ms bound to: 10 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'Debounce' (0#1) [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/sources_1/Debounce.vhd:37]
+INFO: [Synth 8-3491] module 'Debounce' declared at 'C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/sources_1/Debounce.vhd:24' bound to instance 'btn_second' of component 'Debounce' [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/sources_1/Main.vhd:108]
+INFO: [Synth 8-3491] module 'Debounce' declared at 'C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/sources_1/Debounce.vhd:24' bound to instance 'btn_auto' of component 'Debounce' [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/sources_1/Main.vhd:115]
+INFO: [Synth 8-3491] module 'Debounce' declared at 'C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/sources_1/Debounce.vhd:24' bound to instance 'btn_manual' of component 'Debounce' [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/sources_1/Main.vhd:122]
+INFO: [Synth 8-3491] module 'Debounce' declared at 'C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/sources_1/Debounce.vhd:24' bound to instance 'btn_debug' of component 'Debounce' [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/sources_1/Main.vhd:129]
+	Parameter dev_clock bound to: 100000000 - type: integer 
+	Parameter delay_ms bound to: 250 - type: integer 
+INFO: [Synth 8-3491] module 'Debounce' declared at 'C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/sources_1/Debounce.vhd:24' bound to instance 'input_sw' of component 'Debounce' [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/sources_1/Main.vhd:137]
+INFO: [Synth 8-638] synthesizing module 'Debounce__parameterized2' [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/sources_1/Debounce.vhd:37]
+	Parameter dev_clock bound to: 100000000 - type: integer 
+	Parameter delay_ms bound to: 250 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'Debounce__parameterized2' (0#1) [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/sources_1/Debounce.vhd:37]
+	Parameter dev_clock bound to: 100000000 - type: integer 
+	Parameter delay_ms bound to: 250 - type: integer 
+INFO: [Synth 8-3491] module 'Debounce' declared at 'C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/sources_1/Debounce.vhd:24' bound to instance 'input_sw' of component 'Debounce' [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/sources_1/Main.vhd:137]
+	Parameter dev_clock bound to: 100000000 - type: integer 
+	Parameter delay_ms bound to: 250 - type: integer 
+INFO: [Synth 8-3491] module 'Debounce' declared at 'C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/sources_1/Debounce.vhd:24' bound to instance 'input_sw' of component 'Debounce' [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/sources_1/Main.vhd:137]
+	Parameter dev_clock bound to: 100000000 - type: integer 
+	Parameter delay_ms bound to: 250 - type: integer 
+INFO: [Synth 8-3491] module 'Debounce' declared at 'C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/sources_1/Debounce.vhd:24' bound to instance 'input_sw' of component 'Debounce' [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/sources_1/Main.vhd:137]
+	Parameter dev_clock bound to: 100000000 - type: integer 
+	Parameter delay_ms bound to: 250 - type: integer 
+INFO: [Synth 8-3491] module 'Debounce' declared at 'C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/sources_1/Debounce.vhd:24' bound to instance 'input_sw' of component 'Debounce' [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/sources_1/Main.vhd:137]
+	Parameter dev_clock bound to: 100000000 - type: integer 
+	Parameter delay_ms bound to: 250 - type: integer 
+INFO: [Synth 8-3491] module 'Debounce' declared at 'C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/sources_1/Debounce.vhd:24' bound to instance 'input_sw' of component 'Debounce' [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/sources_1/Main.vhd:137]
+	Parameter dev_clock bound to: 100000000 - type: integer 
+	Parameter delay_ms bound to: 250 - type: integer 
+INFO: [Synth 8-3491] module 'Debounce' declared at 'C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/sources_1/Debounce.vhd:24' bound to instance 'input_sw' of component 'Debounce' [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/sources_1/Main.vhd:137]
+	Parameter dev_clock bound to: 100000000 - type: integer 
+	Parameter delay_ms bound to: 250 - type: integer 
+INFO: [Synth 8-3491] module 'Debounce' declared at 'C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/sources_1/Debounce.vhd:24' bound to instance 'input_sw' of component 'Debounce' [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/sources_1/Main.vhd:137]
+	Parameter dev_clock bound to: 100000000 - type: integer 
+	Parameter delay_ms bound to: 250 - type: integer 
+INFO: [Synth 8-3491] module 'Debounce' declared at 'C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/sources_1/Debounce.vhd:24' bound to instance 'input_sw' of component 'Debounce' [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/sources_1/Main.vhd:137]
+	Parameter dev_clock bound to: 100000000 - type: integer 
+	Parameter delay_ms bound to: 250 - type: integer 
+INFO: [Synth 8-3491] module 'Debounce' declared at 'C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/sources_1/Debounce.vhd:24' bound to instance 'input_sw' of component 'Debounce' [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/sources_1/Main.vhd:137]
+	Parameter dev_clock bound to: 100000000 - type: integer 
+	Parameter delay_ms bound to: 250 - type: integer 
+INFO: [Synth 8-3491] module 'Debounce' declared at 'C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/sources_1/Debounce.vhd:24' bound to instance 'input_sw' of component 'Debounce' [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/sources_1/Main.vhd:137]
+	Parameter dev_clock bound to: 100000000 - type: integer 
+	Parameter delay_ms bound to: 250 - type: integer 
+INFO: [Synth 8-3491] module 'Debounce' declared at 'C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/sources_1/Debounce.vhd:24' bound to instance 'input_sw' of component 'Debounce' [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/sources_1/Main.vhd:137]
+	Parameter dev_clock bound to: 100000000 - type: integer 
+	Parameter delay_ms bound to: 250 - type: integer 
+INFO: [Synth 8-3491] module 'Debounce' declared at 'C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/sources_1/Debounce.vhd:24' bound to instance 'input_sw' of component 'Debounce' [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/sources_1/Main.vhd:137]
+	Parameter dev_clock bound to: 100000000 - type: integer 
+	Parameter delay_ms bound to: 250 - type: integer 
+INFO: [Synth 8-3491] module 'Debounce' declared at 'C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/sources_1/Debounce.vhd:24' bound to instance 'input_sw' of component 'Debounce' [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/sources_1/Main.vhd:137]
+	Parameter dev_clock bound to: 100000000 - type: integer 
+	Parameter delay_ms bound to: 250 - type: integer 
+INFO: [Synth 8-3491] module 'Debounce' declared at 'C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/sources_1/Debounce.vhd:24' bound to instance 'input_sw' of component 'Debounce' [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/sources_1/Main.vhd:137]
+	Parameter dev_clock bound to: 100000000 - type: integer 
+	Parameter delay_ms bound to: 250 - type: integer 
+INFO: [Synth 8-3491] module 'Debounce' declared at 'C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/sources_1/Debounce.vhd:24' bound to instance 'input_sw' of component 'Debounce' [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/sources_1/Main.vhd:137]
+INFO: [Synth 8-3491] module 'gcd' declared at 'C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/sources_1/GCD_ALU.vhd:15' bound to instance 'GCD_algoritm' of component 'gcd' [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/sources_1/Main.vhd:152]
+INFO: [Synth 8-638] synthesizing module 'gcd' [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/sources_1/GCD_ALU.vhd:26]
+INFO: [Synth 8-256] done synthesizing module 'gcd' (0#1) [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/sources_1/GCD_ALU.vhd:26]
+INFO: [Synth 8-256] done synthesizing module 'Main' (0#1) [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/sources_1/Main.vhd:35]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:11 . Memory (MB): peak = 1279.898 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:08 ; elapsed = 00:00:11 . Memory (MB): peak = 1279.898 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:11 . Memory (MB): peak = 1279.898 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.016 . Memory (MB): peak = 1279.898 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/constrs_1/Basys3_Master.xdc]
+Finished Parsing XDC File [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/constrs_1/Basys3_Master.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/constrs_1/Basys3_Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Main_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/Main_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/constrs_1/delay_constraints.xdc]
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'btnC' matched to 'port' objects. [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/constrs_1/delay_constraints.xdc:1]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'btnL' matched to 'port' objects. [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/constrs_1/delay_constraints.xdc:2]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'btnR' matched to 'port' objects. [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/constrs_1/delay_constraints.xdc:3]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'btnU' matched to 'port' objects. [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/constrs_1/delay_constraints.xdc:4]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'btnD' matched to 'port' objects. [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/constrs_1/delay_constraints.xdc:5]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'sw[0]' matched to 'port' objects. [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/constrs_1/delay_constraints.xdc:6]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'sw[1]' matched to 'port' objects. [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/constrs_1/delay_constraints.xdc:7]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'sw[2]' matched to 'port' objects. [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/constrs_1/delay_constraints.xdc:8]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'sw[3]' matched to 'port' objects. [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/constrs_1/delay_constraints.xdc:9]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'sw[4]' matched to 'port' objects. [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/constrs_1/delay_constraints.xdc:10]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'sw[5]' matched to 'port' objects. [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/constrs_1/delay_constraints.xdc:11]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'sw[6]' matched to 'port' objects. [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/constrs_1/delay_constraints.xdc:12]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'sw[7]' matched to 'port' objects. [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/constrs_1/delay_constraints.xdc:13]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'sw[8]' matched to 'port' objects. [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/constrs_1/delay_constraints.xdc:14]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'sw[9]' matched to 'port' objects. [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/constrs_1/delay_constraints.xdc:15]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'sw[10]' matched to 'port' objects. [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/constrs_1/delay_constraints.xdc:16]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'sw[11]' matched to 'port' objects. [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/constrs_1/delay_constraints.xdc:17]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'sw[12]' matched to 'port' objects. [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/constrs_1/delay_constraints.xdc:18]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'sw[13]' matched to 'port' objects. [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/constrs_1/delay_constraints.xdc:19]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'sw[14]' matched to 'port' objects. [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/constrs_1/delay_constraints.xdc:20]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'sw[15]' matched to 'port' objects. [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/constrs_1/delay_constraints.xdc:21]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'btnC' matched to 'port' objects. [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/constrs_1/delay_constraints.xdc:23]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'btnL' matched to 'port' objects. [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/constrs_1/delay_constraints.xdc:24]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'btnR' matched to 'port' objects. [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/constrs_1/delay_constraints.xdc:25]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'btnU' matched to 'port' objects. [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/constrs_1/delay_constraints.xdc:26]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'btnD' matched to 'port' objects. [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/constrs_1/delay_constraints.xdc:27]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'sw[0]' matched to 'port' objects. [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/constrs_1/delay_constraints.xdc:28]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'sw[1]' matched to 'port' objects. [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/constrs_1/delay_constraints.xdc:29]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'sw[2]' matched to 'port' objects. [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/constrs_1/delay_constraints.xdc:30]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'sw[3]' matched to 'port' objects. [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/constrs_1/delay_constraints.xdc:31]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'sw[4]' matched to 'port' objects. [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/constrs_1/delay_constraints.xdc:32]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'sw[5]' matched to 'port' objects. [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/constrs_1/delay_constraints.xdc:33]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'sw[6]' matched to 'port' objects. [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/constrs_1/delay_constraints.xdc:34]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'sw[7]' matched to 'port' objects. [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/constrs_1/delay_constraints.xdc:35]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'sw[8]' matched to 'port' objects. [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/constrs_1/delay_constraints.xdc:36]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'sw[9]' matched to 'port' objects. [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/constrs_1/delay_constraints.xdc:37]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'sw[10]' matched to 'port' objects. [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/constrs_1/delay_constraints.xdc:38]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'sw[11]' matched to 'port' objects. [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/constrs_1/delay_constraints.xdc:39]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'sw[12]' matched to 'port' objects. [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/constrs_1/delay_constraints.xdc:40]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'sw[13]' matched to 'port' objects. [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/constrs_1/delay_constraints.xdc:41]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'sw[14]' matched to 'port' objects. [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/constrs_1/delay_constraints.xdc:42]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'sw[15]' matched to 'port' objects. [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/constrs_1/delay_constraints.xdc:43]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'LED[0]' matched to 'port' objects. [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/constrs_1/delay_constraints.xdc:45]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'LED[1]' matched to 'port' objects. [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/constrs_1/delay_constraints.xdc:46]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'LED[2]' matched to 'port' objects. [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/constrs_1/delay_constraints.xdc:47]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'LED[3]' matched to 'port' objects. [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/constrs_1/delay_constraints.xdc:48]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'LED[4]' matched to 'port' objects. [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/constrs_1/delay_constraints.xdc:49]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'LED[5]' matched to 'port' objects. [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/constrs_1/delay_constraints.xdc:50]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'LED[6]' matched to 'port' objects. [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/constrs_1/delay_constraints.xdc:51]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'LED[7]' matched to 'port' objects. [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/constrs_1/delay_constraints.xdc:52]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'LED[8]' matched to 'port' objects. [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/constrs_1/delay_constraints.xdc:53]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'LED[9]' matched to 'port' objects. [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/constrs_1/delay_constraints.xdc:54]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'LED[10]' matched to 'port' objects. [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/constrs_1/delay_constraints.xdc:55]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'LED[11]' matched to 'port' objects. [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/constrs_1/delay_constraints.xdc:56]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'LED[12]' matched to 'port' objects. [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/constrs_1/delay_constraints.xdc:57]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'LED[13]' matched to 'port' objects. [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/constrs_1/delay_constraints.xdc:58]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'LED[14]' matched to 'port' objects. [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/constrs_1/delay_constraints.xdc:59]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'LED[15]' matched to 'port' objects. [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/constrs_1/delay_constraints.xdc:60]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'an[0]' matched to 'port' objects. [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/constrs_1/delay_constraints.xdc:61]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'an[1]' matched to 'port' objects. [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/constrs_1/delay_constraints.xdc:62]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'an[2]' matched to 'port' objects. [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/constrs_1/delay_constraints.xdc:63]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'an[3]' matched to 'port' objects. [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/constrs_1/delay_constraints.xdc:64]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'seg[0]' matched to 'port' objects. [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/constrs_1/delay_constraints.xdc:65]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'seg[1]' matched to 'port' objects. [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/constrs_1/delay_constraints.xdc:66]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'seg[2]' matched to 'port' objects. [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/constrs_1/delay_constraints.xdc:67]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'seg[3]' matched to 'port' objects. [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/constrs_1/delay_constraints.xdc:68]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'seg[4]' matched to 'port' objects. [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/constrs_1/delay_constraints.xdc:69]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'seg[5]' matched to 'port' objects. [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/constrs_1/delay_constraints.xdc:70]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'seg[6]' matched to 'port' objects. [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/constrs_1/delay_constraints.xdc:71]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'LED[0]' matched to 'port' objects. [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/constrs_1/delay_constraints.xdc:73]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'LED[1]' matched to 'port' objects. [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/constrs_1/delay_constraints.xdc:74]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'LED[2]' matched to 'port' objects. [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/constrs_1/delay_constraints.xdc:75]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'LED[3]' matched to 'port' objects. [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/constrs_1/delay_constraints.xdc:76]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'LED[4]' matched to 'port' objects. [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/constrs_1/delay_constraints.xdc:77]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'LED[5]' matched to 'port' objects. [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/constrs_1/delay_constraints.xdc:78]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'LED[6]' matched to 'port' objects. [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/constrs_1/delay_constraints.xdc:79]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'LED[7]' matched to 'port' objects. [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/constrs_1/delay_constraints.xdc:80]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'LED[8]' matched to 'port' objects. [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/constrs_1/delay_constraints.xdc:81]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'LED[9]' matched to 'port' objects. [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/constrs_1/delay_constraints.xdc:82]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'LED[10]' matched to 'port' objects. [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/constrs_1/delay_constraints.xdc:83]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'LED[11]' matched to 'port' objects. [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/constrs_1/delay_constraints.xdc:84]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'LED[12]' matched to 'port' objects. [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/constrs_1/delay_constraints.xdc:85]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'LED[13]' matched to 'port' objects. [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/constrs_1/delay_constraints.xdc:86]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'LED[14]' matched to 'port' objects. [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/constrs_1/delay_constraints.xdc:87]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'LED[15]' matched to 'port' objects. [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/constrs_1/delay_constraints.xdc:88]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'an[0]' matched to 'port' objects. [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/constrs_1/delay_constraints.xdc:89]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'an[1]' matched to 'port' objects. [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/constrs_1/delay_constraints.xdc:90]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'an[2]' matched to 'port' objects. [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/constrs_1/delay_constraints.xdc:91]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'an[3]' matched to 'port' objects. [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/constrs_1/delay_constraints.xdc:92]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'seg[0]' matched to 'port' objects. [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/constrs_1/delay_constraints.xdc:93]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'seg[1]' matched to 'port' objects. [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/constrs_1/delay_constraints.xdc:94]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'seg[2]' matched to 'port' objects. [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/constrs_1/delay_constraints.xdc:95]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'seg[3]' matched to 'port' objects. [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/constrs_1/delay_constraints.xdc:96]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'seg[4]' matched to 'port' objects. [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/constrs_1/delay_constraints.xdc:97]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'seg[5]' matched to 'port' objects. [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/constrs_1/delay_constraints.xdc:98]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'seg[6]' matched to 'port' objects. [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/constrs_1/delay_constraints.xdc:99]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+Finished Parsing XDC File [C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.srcs/constrs_1/delay_constraints.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1279.898 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.014 . Memory (MB): peak = 1279.898 ; gain = 0.000
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:17 ; elapsed = 00:00:20 . Memory (MB): peak = 1279.898 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:17 ; elapsed = 00:00:20 . Memory (MB): peak = 1279.898 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:17 ; elapsed = 00:00:20 . Memory (MB): peak = 1279.898 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'gcd'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'Main'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  s_wait |                              000 |                              000
+                 s_start |                              001 |                              001
+                  s_comp |                              010 |                              010
+               s_sub_y_x |                              011 |                              100
+               s_sub_x_y |                              100 |                              011
+                 s_ready |                              101 |                              101
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'gcd'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  s_wait |                               00 |                               00
+                s_manual |                               01 |                               10
+                   s_run |                               10 |                               01
+                 s_ready |                               11 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'Main'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:17 ; elapsed = 00:00:21 . Memory (MB): peak = 1279.898 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input   16 Bit       Adders := 1     
++---XORs : 
+	   2 Input      1 Bit         XORs := 21    
++---Registers : 
+	               16 Bit    Registers := 6     
+	                1 Bit    Registers := 66    
++---Muxes : 
+	   2 Input   16 Bit        Muxes := 5     
+	   6 Input   16 Bit        Muxes := 1     
+	   4 Input   16 Bit        Muxes := 1     
+	   4 Input    4 Bit        Muxes := 3     
+	   6 Input    3 Bit        Muxes := 1     
+	   2 Input    3 Bit        Muxes := 2     
+	   4 Input    2 Bit        Muxes := 1     
+	   2 Input    2 Bit        Muxes := 6     
+	   6 Input    1 Bit        Muxes := 6     
+	   4 Input    1 Bit        Muxes := 2     
+	   2 Input    1 Bit        Muxes := 4     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-7129] Port led[15] in module gcd is either unconnected or has no load
+WARNING: [Synth 8-7129] Port led[14] in module gcd is either unconnected or has no load
+WARNING: [Synth 8-7129] Port led[13] in module gcd is either unconnected or has no load
+WARNING: [Synth 8-7129] Port led[12] in module gcd is either unconnected or has no load
+WARNING: [Synth 8-7129] Port led[11] in module gcd is either unconnected or has no load
+WARNING: [Synth 8-7129] Port led[10] in module gcd is either unconnected or has no load
+WARNING: [Synth 8-7129] Port led[9] in module gcd is either unconnected or has no load
+WARNING: [Synth 8-7129] Port led[8] in module gcd is either unconnected or has no load
+WARNING: [Synth 8-7129] Port led[7] in module gcd is either unconnected or has no load
+WARNING: [Synth 8-7129] Port led[6] in module gcd is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:20 ; elapsed = 00:00:24 . Memory (MB): peak = 1279.898 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:26 ; elapsed = 00:00:30 . Memory (MB): peak = 1279.898 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:27 ; elapsed = 00:00:31 . Memory (MB): peak = 1279.898 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:28 ; elapsed = 00:00:31 . Memory (MB): peak = 1279.898 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:33 ; elapsed = 00:00:37 . Memory (MB): peak = 1279.898 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:33 ; elapsed = 00:00:37 . Memory (MB): peak = 1279.898 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:33 ; elapsed = 00:00:37 . Memory (MB): peak = 1279.898 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:33 ; elapsed = 00:00:37 . Memory (MB): peak = 1279.898 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:33 ; elapsed = 00:00:37 . Memory (MB): peak = 1279.898 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:33 ; elapsed = 00:00:37 . Memory (MB): peak = 1279.898 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     2|
+|2     |CARRY4 |    77|
+|3     |LUT1   |    12|
+|4     |LUT2   |   118|
+|5     |LUT3   |    23|
+|6     |LUT4   |    66|
+|7     |LUT5   |    22|
+|8     |LUT6   |    38|
+|9     |FDRE   |   348|
+|10    |IBUF   |    22|
+|11    |OBUF   |    22|
+|12    |OBUFT  |     5|
++------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:33 ; elapsed = 00:00:37 . Memory (MB): peak = 1279.898 ; gain = 0.000
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 11 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:24 ; elapsed = 00:00:35 . Memory (MB): peak = 1279.898 ; gain = 0.000
+Synthesis Optimization Complete : Time (s): cpu = 00:00:34 ; elapsed = 00:00:38 . Memory (MB): peak = 1279.898 ; gain = 0.000
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.012 . Memory (MB): peak = 1279.898 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 77 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1283.168 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete, checksum: 5f07e7bc
+INFO: [Common 17-83] Releasing license: Synthesis
+156 Infos, 11 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:39 ; elapsed = 00:00:43 . Memory (MB): peak = 1283.168 ; gain = 3.270
+INFO: [Common 17-1381] The checkpoint 'C:/Users/danel/Desktop/IAS0150_FPGA_project/IAS0150_FPGA_project.runs/synth_1/Main.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file Main_utilization_synth.rpt -pb Main_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed Dec 14 07:04:26 2022...
